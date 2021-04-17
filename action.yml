@@ -1,6 +1,10 @@
 name: AWS Configure Route 53 Records
 description: Configures DNS records in a given AWS Route 53 domain
 
+branding:
+  icon: activity
+  color: red
+
 inputs:
   hosted-zone-id:
     description: The ID of the hosted zone that contains the resource record sets that you want to change.
