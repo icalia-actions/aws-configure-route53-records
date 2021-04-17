@@ -1,0 +1,21 @@
+name: AWS Configure Route 53 Records
+description: Configures DNS records in a given AWS Route 53 domain
+
+inputs:
+  hosted-zone-id:
+    description: The ID of the hosted zone that contains the resource record sets that you want to change.
+    required: true
+  records:
+    description: The list of records to be upserted
+    required: true
+  comment:
+    description: An optional comment that describes the purpose of the changes
+    required: false
+
+# outputs:
+#   task-arn: # id of output
+#     description: The Task ARN used to run the migration
+
+runs:
+  using: node12
+  main: index.js
