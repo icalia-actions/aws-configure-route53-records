@@ -96,3 +96,4 @@ typings/
 
 # Ignore temporary files
 tmp/
+!tmp/.keep
