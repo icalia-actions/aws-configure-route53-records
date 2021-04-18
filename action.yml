@@ -1,5 +1,6 @@
 name: AWS Configure Route 53 Records
 description: Configures DNS records in a given AWS Route 53 domain
+author: Icalia Labs
 
 branding:
   icon: activity
